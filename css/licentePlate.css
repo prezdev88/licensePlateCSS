@@ -3,16 +3,16 @@ https://www.fontspace.com/gutenberg-labo/gl-nummernschild
 */
 
 @font-face{
-    font-family: "patentFont";
-    src: url('../fonts/patent.ttf');
+    font-family: "licensePlate";
+    src: url('../fonts/licensePlate.ttf');
 }
 
 :root{
     --mainFontSize: 60px;
 }
 
-.patent{
-    font-family: "patentFont";
+.plate{
+    font-family: "licensePlate";
     font-size: var(--mainFontSize);
     display: inline-block;
     border-style: solid;
@@ -26,7 +26,6 @@ https://www.fontspace.com/gutenberg-labo/gl-nummernschild
     text-align: center;
     letter-spacing: 7px;
 }
-
 
 .shield{
     width: 12px;

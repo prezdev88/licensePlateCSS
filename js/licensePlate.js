@@ -1,12 +1,12 @@
 (function() {
-   document.querySelectorAll('.patent').forEach((patentDiv) => {
-      var patent = patentDiv.innerHTML.trim();
+   document.querySelectorAll('.plate').forEach((plateDiv) => {
+      var plate = plateDiv.innerHTML.trim();
 
-      var part1 = patent.substring(0,2);
-      var part2 = patent.substring(2,4);
-      var part3 = patent.substring(4,6);
+      var part1 = plate.substring(0,2);
+      var part2 = plate.substring(2,4);
+      var part3 = plate.substring(4,6);
       
-      patentDiv.innerHTML = "";
+      plateDiv.innerHTML = "";
 
       var contentDiv = document.createElement("div");
       var countryDiv = document.createElement("div");
@@ -39,7 +39,7 @@
       contentDiv.appendChild(shieldImg);
       contentDiv.appendChild(part3Span);
 
-      patentDiv.appendChild(contentDiv);
-      patentDiv.appendChild(countryDiv);
+      plateDiv.appendChild(contentDiv);
+      plateDiv.appendChild(countryDiv);
    });
 })();

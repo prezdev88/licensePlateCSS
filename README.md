@@ -1,3 +1,7 @@
+# Patent license CSS
+
+## Example code
+```html
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,3 +17,7 @@
         <link rel="stylesheet" href="css/licensePatent.css">
     </body>
 </html>
+```
+
+## Result
+![ ](https://ibb.co/Fh8tyxP  "Demo")

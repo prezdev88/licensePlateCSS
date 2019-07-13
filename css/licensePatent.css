@@ -3,22 +3,21 @@ https://www.fontspace.com/gutenberg-labo/gl-nummernschild
 */
 
 @font-face{
-    font-family: "patentFont";
+    font-family: "chilePatentFont";
     src: url('../fonts/patent.ttf');
 }
 
-:root{
-    --mainFontSize: 60px;
+.patent{
+    display: inline-block;
 }
 
-.patent{
-    font-family: "patentFont";
-    font-size: var(--mainFontSize);
-    display: inline-block;
+.chile{
+    font-family: "chilePatentFont";
+    font-size: 60px;
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
-    padding: 0px 10px 4px 10px;
+    padding: 0px 10px 2px 10px;
 }
 
 .country{

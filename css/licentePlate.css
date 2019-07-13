@@ -14,7 +14,6 @@ https://www.fontspace.com/gutenberg-labo/gl-nummernschild
 .plate{
     font-size: var(--mainFontSize);
     font-family: "chilePatentFont";
-    src: url('../fonts/patent.ttf');
 }
 
 .plate{

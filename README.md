@@ -1,4 +1,4 @@
-# Patent license CSS
+# License patent CSS
 
 ## Example code
 ```html

@@ -8,7 +8,6 @@
       
       plateDiv.innerHTML = "";
 
-      var contentDiv = document.createElement("div");
       var countryDiv = document.createElement("div");
       var part1Span = document.createElement("span");
       var part2Span = document.createElement("span");
@@ -33,13 +32,11 @@
       countryDiv.innerHTML = "chile";
       countryDiv.setAttribute("class", "country");
 
-      contentDiv.appendChild(part1Span);
-      contentDiv.appendChild(circleImg);
-      contentDiv.appendChild(part2Span);
-      contentDiv.appendChild(shieldImg);
-      contentDiv.appendChild(part3Span);
-
-      plateDiv.appendChild(contentDiv);
+      plateDiv.appendChild(part1Span);
+      plateDiv.appendChild(circleImg);
+      plateDiv.appendChild(part2Span);
+      plateDiv.appendChild(shieldImg);
+      plateDiv.appendChild(part3Span);
       plateDiv.appendChild(countryDiv);
    });
 })();
